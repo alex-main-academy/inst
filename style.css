@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e2e2;
+}
+body .post {
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  border-top: 1px solid black;
+}
+body .post .post__title {
+  display: flex;
+  align-items: center;
+}
+body .post .post__title img {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 50%;
+}
+body .post .post__title h3 {
+  margin: 0 0 0 10px;
+}
+body .post .post__image {
+  margin: 20px 0 20px 0;
+}
+body .post .post__image img {
+  width: 100%;
+}
+body .post .post__like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .post .post__like img {
+  width: 24px;
+}
+body .post .post__like .like {
+  display: flex;
+  align-items: center;
+}
+body .post .post__like .like img {
+  margin: 0 10px 0 0;
+}
+body .post .post__like__calc {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+body .post .post__like__calc img {
+  width: 16px;
+  margin: 0 10px 0 0;
+}
+body .post .post__like__calc p {
+  font-size: 13px;
+  font-weight: bold;
+}
+body .post .post__text {
+  margin: 20px 0 0 0;
+  font-size: 18px;
+}
